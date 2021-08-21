@@ -240,6 +240,20 @@ body {
   color: #979797;
 }
 
+/* Desktop devices */
+@media (max-width: 1024px) {
+  .video-container {
+    grid-template-columns: repeat(4, 25%);
+  }
+}
+
+/* Tablet devices */
+@media (max-width: 768px){
+  .video-container {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
 /* Mobile device */
 @media (max-width: 426px){
   .toggle-btn,
@@ -266,3 +280,6 @@ body {
     grid-template-columns: repeat(1, 100%);
   }
 }
+
+
+
