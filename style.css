@@ -242,9 +242,13 @@ body {
 
 /* Mobile device */
 @media (max-width: 426px){
-
-  .search-bar {
+  .toggle-btn,
+  .user-options {
     display: none;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 
   .side-bar {
